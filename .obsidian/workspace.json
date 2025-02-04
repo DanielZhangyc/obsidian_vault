@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发日志/RLLM/收藏导出功能开发记录.md",
+                "file": "开发日志/RLLM/收藏导出功能开发记录 Part1 基础绘制实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "收藏导出功能开发记录 的反向链接列表"
+              "title": "收藏导出功能开发记录 Part1 基础绘制实现 的反向链接列表"
             }
           },
           {
@@ -151,8 +151,7 @@
               "title": "收藏导出功能开发记录 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,7 +166,10 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian42-brat:BRAT": false,
+      "i18n:I18N": false,
+      "obsidian-git:打开Git源代码管理": false
     }
   },
   "active": "705abd7beaaa35df",
