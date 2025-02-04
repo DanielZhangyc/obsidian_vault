@@ -1,3 +1,24 @@
+---
+date: 2025-02-05T02:49:01+08:00
+tags:
+  - 标签1
+  - 标签2
+title: 收藏导出功能开发记录 Part1 基础绘制实现
+slug: "1738694941"
+share: true
+searchHidden: false
+canonicalURL: ""
+keywords:
+  - 关键字1
+  - 关键字2
+description: ""
+series: 系列
+lastmod: 
+lang: cn
+cover.image: ""
+author: xy0v0
+dir: posts
+---
 ## 开发构思
 
 收藏时内容包含html标签，这是在完成阅读器界面时留下的问题。现在有两个解决方案：
