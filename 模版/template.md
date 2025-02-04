@@ -7,6 +7,7 @@ title: "{{title}}"
 slug: "{{time}}"
 share: false
 searchHidden: false
+disableShare: true
 canonicalURL: ""
 keywords:
   - 关键字1
