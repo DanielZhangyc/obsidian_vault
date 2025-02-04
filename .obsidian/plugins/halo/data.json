@@ -1,0 +1,11 @@
+{
+  "sites": [
+    {
+      "name": "xy0v0's Blog",
+      "url": "https://www.xy0v0.top",
+      "token": "pat_eyJraWQiOiJYVUVKNGkwN0tjaXFmblE5b3p6WGNWLWY1U29uZ2xBOUZSRGgxZU5ONVhzIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJodHRwczovL3d3dy54eTB2MC50b3AiLCJzdWIiOiJ4eTB2MCIsImlhdCI6MTczODY2NzQ3NiwianRpIjoiMDkyYzdiZDEtYmQxMS05NTE0LTAxMTItMGM5MTUzMzAxMThmIiwicGF0X25hbWUiOiJwYXQteHkwdjAtTXFRSHgifQ.UKtk8fZPZu_QS5PsRFy4gvnMVGQA4-VPFZulWBpxHckY0VrG77EMCIspFmZxg_7tVrIy7xoFYgyDkvVTptT6xsSOf2sIJ1W5s1tdZOwBhJCZ6ianIRhxP7wZDcbiZZPHetdM-8lV7COsE-D1G0Dwop0HMtRmUGoiMPwbwahGc3r_pnxYbdZw4YcHS-0JxVE9kV_Xy0g8tZ1hHdJJu3u_MEdNfFToaewESWD2ZWXAo6YEtvqBbtJvB3RbkO42ERYYYDcTdUvYb1iEZuEEZlUNcTNKFe3B4MCLsKYKTpwYjrxXJvafCvn2b50wRf3EXfFIVBZgqEnYhcTVVOmzoayL03-pQ_IPgUqnR1UV2W0Pm6YQ0s5X3dMHRhzvjAP9Ij_PlgS9cdpTv6NS8ZEGIDCC-1unAbSoi8NyAybNiEx7KNoYxEbFid4TDw50AadpuGIy1BinaWE0D9tvWpYc0-PXYKiE5KaGGBsp2_vLag5We4Dxpf-ZaFWT-Fi-ZTyPurToV8agBERfjH4JyaJmxAyHYQB_oh6eqVUKm2rS_XKJH11nEssdnF_9kbXi2ZVB2MHw5x2yVnEHBZeFoSWA1LQNz7th5PeVCt2TeSOq-frV_w0cqbfEsyghIMl5tnIQGQlpJ8dUPPHUm1xGLeFeYW4jMXwKDRbgJgSkTn-SY-mWryI",
+      "default": true
+    }
+  ],
+  "publishByDefault": false
+}

@@ -169,7 +169,8 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "obsidian42-brat:BRAT": false,
       "i18n:I18N": false,
-      "obsidian-git:打开Git源代码管理": false
+      "obsidian-git:打开Git源代码管理": false,
+      "halo:发布当前文档到 Halo": false
     }
   },
   "active": "705abd7beaaa35df",
