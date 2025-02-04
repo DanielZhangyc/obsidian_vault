@@ -1,5 +1,5 @@
 ---
-title: RLLM收藏导出功能开发记录 Part1 基础绘制实现
+title: 开发日志 | RLLM收藏导出功能开发记录 Part1 基础绘制实现
 slug: quotes-export-p1
 cover: ""
 categories:
