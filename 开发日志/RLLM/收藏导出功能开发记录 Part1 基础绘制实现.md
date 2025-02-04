@@ -1,16 +1,3 @@
----
-title: 开发日志 | RLLM收藏导出功能开发记录 Part1 基础绘制实现
-slug: quotes-export-p1
-cover: ""
-categories:
-  - 开发日志
-tags:
-  - Swift
-halo:
-  site: https://www.xy0v0.top
-  name: 93fd5b6b-5dc8-495f-a60e-2da4730df725
-  publish: false
----
 ## 开发构思
 
 收藏时内容包含html标签，这是在完成阅读器界面时留下的问题。现在有两个解决方案：
