@@ -5,7 +5,7 @@ tags:
   - Obsidian
 title: 在obsidian中实现文章概括生成
 slug: "1738736728"
-share: false
+share: true
 searchHidden: false
 disableShare: true
 canonicalURL: ""
@@ -77,24 +77,20 @@ flowchart TD
     A[开始] --> B{检查frontmatter}
     B -->|不存在| C[创建新的frontmatter]
     B -->|存在| D{检查summaryField字段}
-    
     D -->|存在| E[使用已有字段]
     D -->|不存在| F[准备创建新字段]
-    
     C --> G[生成AI摘要]
     E --> G
     F --> G
-    
     G --> H{字段是否存在}
     H -->|存在| I[替换原有内容]
     H -->|不存在| J[添加新字段]
-    
     I --> K[保持格式]
     J --> K
-    
     K --> L[更新文档]
     L --> M[结束]
 ```
+
 ```TS
 private static readonly FRONTMATTER_REGEX = /^---\n([\s\S]*?)\n---\n*/;
 private static readonly FIELD_REGEX = (field: string) =>
@@ -124,4 +120,4 @@ new RegExp(`^${field}:([\\s\\S]*?)(?=\\n[^\\s]|$)`, 'm');
 
 经过开发，终于可以为博客文章自动生成描述，方便阅读和后续检索
 
-开源地址：!(https://github.com/DanielZhangyc/Auto-AI-Summary)
+开源地址：[GitHub](https://github.com/DanielZhangyc/Auto-AI-Summary)
