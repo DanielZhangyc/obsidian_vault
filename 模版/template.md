@@ -8,6 +8,7 @@ slug: "{{time}}"
 share: false
 searchHidden: false
 disableShare: true
+math: false
 canonicalURL: ""
 keywords:
   - 关键字1
