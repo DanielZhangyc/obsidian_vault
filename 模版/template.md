@@ -9,6 +9,7 @@ share: false
 searchHidden: false
 disableShare: true
 math: false
+mermaid: false
 canonicalURL: ""
 keywords:
   - 关键字1
