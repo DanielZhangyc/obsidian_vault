@@ -10,6 +10,7 @@ searchHidden: false
 disableShare: true
 math: false
 mermaid: false
+ShowLastMod: false
 canonicalURL: ""
 description: ""
 series: 系列
