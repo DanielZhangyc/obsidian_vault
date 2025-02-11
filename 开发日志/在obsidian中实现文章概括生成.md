@@ -121,4 +121,9 @@ new RegExp(`^${field}:([\\s\\S]*?)(?=\\n[^\\s]|$)`, 'm');
 
 经过开发，终于可以为博客文章自动生成描述，方便阅读和后续检索
 
-开源地址：[GitHub](https://github.com/DanielZhangyc/Auto-AI-Summary)
+{{< github 
+    name="Auto-AI-Summary"
+    link="https://github.com/DanielZhangyc/Auto-AI-Summary"
+    description="Obsidian的AI摘要生成插件"
+    language="TypeScript"
+>}}
