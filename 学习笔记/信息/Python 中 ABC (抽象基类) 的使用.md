@@ -9,8 +9,8 @@ searchHidden: false
 disableShare: true
 math: false
 mermaid: false
-canonicalURL: ""
-description: ""
+canonicalURL: 
+description: 本文介绍了在Python中使用抽象基类（ABC）进行代码重构的方法。文章首先指出了原始代码的痛点，即在一个类中通过self.mode控制不同模式的实现，导致代码维护困难。为了解决这一问题，作者提出了使用抽象基类的重构方案。通过定义基类BaseEmbeddingService，并使用abstractmethod修饰器标记子类必须实现的方法，确保了代码的扩展性和类型安全。文章还通过对比原始if-else模式、策略模式和ABC抽象基类的优缺点，强调了ABC在代码复用、类型安全和可维护性方面的优势。最终，通过继承基类并重写抽象方法，实现了本地和API模式的分离，提高了代码的可维护性和扩展性。
 series: 系列
 lastmod: 
 lang: cn
@@ -18,7 +18,6 @@ cover.image: ""
 author: 
 dir: posts
 ---
-
 ## 原代码痛点
 
 在项目开发中需要实现代码的重构，原先嵌入模型使用 API / 本地的方法放在一个类中实现，通过 `self.mode` 进行控制切换。为了方便后续维护，需要对本地和 API 的类分离
