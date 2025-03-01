@@ -20,7 +20,9 @@ author:
 dir: posts
 ---
 
-[VVQuest](https://github.com/MemeMeow-Studio/VVQuest) 这项目感觉还是需要一个浏览器插件才能发挥，而对于浏览器插件开发又不熟悉，遂尝试用 `Claude 3.7` 开发
+[VVQuest](https://github.com/MemeMeow-Studio/VVQuest) 这项目感觉还是需要一个浏览器插件才能发挥，而对于浏览器插件开发又不熟悉，遂尝试用 `Claude 3.7` 开发。
+
+前期的开发过程记录仅供参考。
 
 ## 如何开发谷歌插件？
 
@@ -58,3 +60,4 @@ flowchart TD
 
 目前的 LLM 受提示词的影响还是较大，且为了使我对其生成的代码可控，我决定让他分步执行操作，并在每一步后进行调试和code review。且我打算采用知识库+Deepseek R1生成合适准确的提示词。
 
+此处就不附上提示词了
