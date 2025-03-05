@@ -10,15 +10,14 @@ disableShare: true
 math: false
 mermaid: false
 canonicalURL: ""
-description: ""
+description: "本文介绍了如何使用Node-RED与Awtrix3进行通信。Awtrix3相比Awtrix2无需配置服务端，但需要通过MQTT通信进行App同步。首先，安装Node-RED并通过pm2实现开机自启动。接着，在Node-RED中配置MQTT服务器，使用node-red-contrib-aedes模块添加aedes broker，并配置端口号。然后，将Awtrix和模块连接至MQTT服务器，修改Node-RED中的mqtt out模块设置。重新启动并部署Node-RED后，观察aedes broker下方的连接提示，确保配置成功。最后，在flow上安装所需App即可完成配置。"
 series: 系列
 lastmod: 
 lang: cn
-cover.image: ""
-author: 
+cover.image: 
+author: xy0v0
 dir: posts
 ---
-
 Awtrix3 相比 Awtrix2 不必配置服务端，但是其 App 安装与同步方法也有所改变：需要通过 `MQTT` 通信来进行 App 的同步。
 
 ## 安装 Node-RED
@@ -53,4 +52,8 @@ pm2 startup
 
 ![image.png](https://cn-sy1.rains3.com/pic/pic/2025/03/89ce7d1d268b14c49ce013dd24c9922f.png)
 
-后续在
+后续在 [flow](https://flows.blueforcer.de/) 上安装所需 App 即可
+
+![example](https://cn-sy1.rains3.com/pic/pic/2025/03/44cfd4a15371a3fd6eb51d880b03e933.png)
+
+![效果1](https://cn-sy1.rains3.com/pic/pic/2025/03/a819a878651a2c53481bf6ad31d8e5dc.JPG)
