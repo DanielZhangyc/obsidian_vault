@@ -2,7 +2,7 @@
 date: 2025-03-13T22:58:21+08:00
 tags:
   - 汇编
-title: 如何在 《图灵完备》 中设计一套高效的指令集
+title: 学习笔记 | 如何在 《图灵完备》 中设计一套高效的指令集
 slug: "1741877901"
 share: true
 searchHidden: false
@@ -10,7 +10,7 @@ disableShare: true
 math: false
 mermaid: false
 canonicalURL: ""
-description: 在《图灵完备》中设计一套高效的指令集是编程的基础。文章介绍了计算机的四种基本操作：IMMEDIATE、CALCULATION、COPY和CONDITION，并详细说明了每种操作的二进制编码和功能。IMMEDIATE用于直接写入数值，CALCULATION用于执行逻辑和算术运算，COPY用于寄存器之间的数据复制，CONDITION用于条件判断和跳转。文章还提供了基础指令集的设计方案，包括输入输出指令、寄存器复制指令以及条件跳转指令。通过这些指令，可以实现高效的汇编编程。
+description: 
 series: 系列
 lastmod: 
 lang: cn
