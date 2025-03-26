@@ -42,7 +42,7 @@ $$
 - 利用细粒度的 token 级别交互计算相关性，公式为：
   
   $$
-- s_{\text{mul}} = \frac{1}{N} \sum_{i=1}^N \max_{j=1}^M (e_{qi} \cdot e_{pj})
+ s_{\text{mul}} = \frac{1}{N} \sum_{i=1}^N \max_{j=1}^M (e_{qi} \cdot e_{pj})
 - $$
   
   其中 $e_{qi}$ 和 $e_{pj}$ 分别表示查询和表情包描述中第 $i$ 和第 $j$ 个 token 的嵌入向量。这种检索方式能够捕捉更细粒度的语义信息。
