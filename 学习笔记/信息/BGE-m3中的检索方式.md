@@ -1,14 +1,12 @@
 ---
 date: 2025-03-26T23:12:35+08:00
-tags:
-  - 标签1
-  - 标签2
+tags: 
 title: 学习笔记 | BGE-m3中的检索方式
 slug: "1743001955"
 share: true
 searchHidden: false
 disableShare: true
-math: false
+math: true
 mermaid: false
 canonicalURL: ""
 description: ""
@@ -39,11 +37,12 @@ $$
   其中 $w_{qt}$ 和 $w_{pt}$ 分别表示查询和表情包描述中词项 \(t\) 的权重。这种检索方式适合处理关键词匹配问题。
 
 ## **多向量检索（Multi-Vector Retrieval）**
+
 - 利用细粒度的 token 级别交互计算相关性，公式为：
   
-  $$
+$$
  s_{\text{mul}} = \frac{1}{N} \sum_{i=1}^N \max_{j=1}^M (e_{qi} \cdot e_{pj})
-- $$
+$$
   
   其中 $e_{qi}$ 和 $e_{pj}$ 分别表示查询和表情包描述中第 $i$ 和第 $j$ 个 token 的嵌入向量。这种检索方式能够捕捉更细粒度的语义信息。
 
